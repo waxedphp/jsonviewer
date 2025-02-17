@@ -2,10 +2,11 @@
 
 return [
   'js' => [
-    '/js/jam/jsonviewer/jquery.jsonview.js',
-    '/js/jam/jsonviewer/plugin.js',
+    NODE . '/jsonview/dist/jquery.jsonview.js',
+    $PATH . '/plugin.js',
   ],
   'css' => [
-    '/js/jam/jsonviewer/style.css',
+    NODE . '/jsonview/dist/jquery.jsonview.css',
+    $PATH . '/style.css',
   ],
 ];

@@ -1,7 +1,7 @@
 {
     "name": "waxedphp/jsonviewer",
-    "version": "0.2.8",
-    "description": "Advanced views with mustache.",
+    "version": "0.2.9",
+    "description": "Formats & syntax highlights JSON - within WaxedPHP environment.",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -11,10 +11,14 @@
     },
     "authors": [
         {
+            "name": "Wei Zhu",
+            "homepage": "https://github.com/yesmeck"
+        }.
+        {
             "name": "Waxed"
         }
     ],
     "require": {
-      "waxedphp/waxedphp":"^0.2.6"
+      "waxedphp/waxedphp":"^0.2.7"
     }
 }
