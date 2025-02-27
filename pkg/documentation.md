@@ -6,19 +6,7 @@ Port of Ben Hollis's JSONView extension for Firefox.
 
 MIT license
 
-
-### HTML:
-
-```
-
-<div class="jsonviewer"
-  data-name="payload"
-  data-collapsed="true"
->
-</div>
-
-```
-
+---
 ### PHP:
 
 ```
@@ -33,6 +21,19 @@ $this->waxed->display([
 ], 'template');
 
 ```
+---
 
+### HTML:
 
+```
+
+<div class="jsonviewer"
+  data-name="payload"
+  data-collapsed="true"
+>
+</div>
+
+```
+---
+---
 http://yesmeck.github.io/jquery-jsonview/
